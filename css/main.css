@@ -30,11 +30,14 @@ header {
 
 header img {
     margin: auto;
+    max-width: 100%;
 }
 
 article, footer {
     width: 960px;
     margin: auto;
+    max-width: calc(100% - 1em);
+    padding: 0 0.5em 0 0.5em;
 }
 
 footer {
